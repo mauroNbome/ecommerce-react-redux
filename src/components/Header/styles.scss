@@ -6,7 +6,7 @@
 .wrap {
   position: relative;
   height: 100%;
-  max-width: 1450px;
+  max-width: 2000px;
   margin: 0 auto;
 
   .logo {
@@ -23,5 +23,30 @@
       margin: 0;
     }
 
+ }
+
+  .callToActions {
+    position:absolute;
+    top: 50%; right: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+
+      a {
+        font-size: 1.8rem;
+        line-height: 1;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+    }
  }
 }
